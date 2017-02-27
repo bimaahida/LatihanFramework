@@ -34,9 +34,9 @@
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="<?php echo base_url(); ?>">Beranda</a></li>
-						<li><a href="<?php echo base_url(); ?>berita/4">Berita</a></li>
-						<li><a href="<?php echo base_url(); ?>tentang">Tentang</a></li>
-						<li><a href="<?php echo base_url(); ?>kontak">Kontak</a></li>
+						<li><a href="<?php echo base_url(); ?>index.php/berita/4">Berita</a></li>
+						<li><a href="<?php echo base_url(); ?>index.php/tentang">Tentang</a></li>
+						<li><a href="<?php echo base_url(); ?>index.php/kontak">Kontak</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
