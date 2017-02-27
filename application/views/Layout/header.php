@@ -8,6 +8,8 @@
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="<?php echo base_url(); ?>/Assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,10 +35,10 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="<?php echo base_url(); ?>">Beranda</a></li>
-						<li><a href="<?php echo base_url(); ?>index.php/berita/4">Berita</a></li>
-						<li><a href="<?php echo base_url(); ?>index.php/tentang">Tentang</a></li>
-						<li><a href="<?php echo base_url(); ?>index.php/kontak">Kontak</a></li>
+						<li><a href="<?php echo base_url(); ?>"><i class="fa fa-home" aria-hidden="true"></i> Beranda</a></li>
+						<li><a href="<?php echo base_url(); ?>index.php/berita/4"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Berita</a></li>
+						<li><a href="<?php echo base_url(); ?>index.php/tentang"><i class="fa fa-user-circle-o" aria-hidden="true"> </i> Tentang</a></li>
+						<li><a href="<?php echo base_url(); ?>index.php/kontak"><span class="glyphicon glyphicon-earphone" aria-hidden="true"> Kontak</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
