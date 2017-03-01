@@ -1,14 +1,10 @@
 <div class="container">
-	<div class="jumbotron">
-		<div class="container">
-			<h1>Hello, world!</h1>
-			<p>Saya <?php echo $nama ?></p>
-			<p>
-				<a class="btn btn-primary btn-lg">Learn more</a>
-			</p>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Tentang Saya</h3>
 		</div>
-	</div>
-	<div class="row">
+		<div class="panel-body">
+			<div class="row">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 			<div class="table-responsive">
 				<table class="table table-hover">
@@ -59,6 +55,8 @@
 					</tbody>
 				</table>
 			</div>
+		</div>
+	</div>
 		</div>
 	</div>
 </div>

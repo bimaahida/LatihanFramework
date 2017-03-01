@@ -36,7 +36,6 @@
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
 						<li><a href="<?php echo base_url(); ?>"><i class="fa fa-home" aria-hidden="true"></i> Beranda</a></li>
-						<li><a href="<?php echo base_url(); ?>index.php/berita/4"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Berita</a></li>
 						<li><a href="<?php echo base_url(); ?>index.php/tentang"><i class="fa fa-user-circle-o" aria-hidden="true"> </i> Tentang</a></li>
 						<li><a href="<?php echo base_url(); ?>index.php/kontak"><span class="glyphicon glyphicon-earphone" aria-hidden="true"> Kontak</a></li>
 					</ul>
